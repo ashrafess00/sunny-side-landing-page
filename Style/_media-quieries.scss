@@ -1,0 +1,118 @@
+@media (max-width:400px) {
+    
+    .grid {
+
+        .image-1 {
+            order: 0;
+        }
+        .image-2 {
+            order: 1;
+        }
+        .transform-block-text {
+            order: 2;
+            // height: auto;
+            margin-bottom: 150px;
+        }
+        .image-3 {
+            order: 3;
+        }
+        .transform-block-text.order-4 {
+            order: 4;
+        }
+        .image-graphic-design-photography {
+            order:6;
+        }
+        .image-graphic-design-photography {
+            order:5;
+            // position: relative;
+            margin: 0;
+            .container-gd {
+                margin-bottom: 87px;
+                // margin: 0;
+                // order: 4;
+                text-align: center;
+                max-height: 135px;
+                color: #25564b;
+                
+                position: absolute;
+                // margin-top: 21em;
+                p {
+                    padding: 0;
+                    width: 100%;
+                }
+            
+        }
+        }
+        
+
+        display: flex;
+        flex-wrap: wrap;
+        h1.main-heading {
+            
+            font-size: 45px;
+            // position: absolute;
+            top: 0;
+            margin-top: 850px;
+        }
+
+        .arrow {
+            transform: translate(-50%, 31%);
+        }
+
+        .transform-block-text .flex-container {
+            text-align: center;
+                h3 {
+                    margin-top: 2em;
+                    margin-bottom: 1em;
+                    font-size: 2.1rem;
+                }
+                p {
+                    margin-bottom: 1.8em;
+                }
+                .learn-div-1 {
+                    // margin-bottom: 2.5em;
+                    margin: 0 auto 2.5em;
+                }
+                .learn-div-2 {
+                    // margin-bottom: 2.5em;
+                    margin: 0 auto 2.5em;
+                }
+                p:last-of-type {
+                    margin-top: 15px;
+
+                }
+    }
+}
+    .clients-flex {
+        h4 {
+            margin-top: 2.94em;
+            margin-bottom: 2.90em;
+        }
+        padding: 0 2rem;
+        flex-wrap: wrap;
+        .client-div {
+            .circle{
+            margin-bottom: 2em ;
+        }
+        p {
+            margin-bottom: 2.1em ;
+        }
+        strong {
+            margin-bottom: 2em;
+        }
+        }
+    }
+
+    .image-gallery {
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    .hum {
+            display:block;
+    }
+    }

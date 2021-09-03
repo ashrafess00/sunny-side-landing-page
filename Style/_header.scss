@@ -1,0 +1,92 @@
+@import "colors-and-style";
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(4 , auto);
+    overflow:hidden;
+
+    
+    .image-1 { 
+        grid-column: span 2;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        
+        h1 {
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%, -659%);
+            text-transform: uppercase;
+            color: white;
+            letter-spacing: 8px;
+            font-family: "Fraunces", serif;
+            font-weight: 900;
+            font-size: 2.5em;
+            width: 100%;
+            text-align: center;
+            margin-top: 160px;
+            font-weight: 900;
+        }
+        .arrow {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            
+            transform: translate(-50%, -38%);
+            width: 30px;
+            height: 100px;
+        }
+        }
+        
+    .transform-block-text {
+            justify-content: center;
+            align-items: center;
+            text-align: left;
+            height: auto;
+            .flex-container {
+                flex-wrap: wrap;
+                align-content: space-between;
+                max-width: 80%;
+                height: 15.4375em;
+                .learn-more {
+                    @include learn-more(0.8rem);
+                    cursor: pointer;
+                }
+            }
+        }
+        .image-2 {
+            display: flex;
+
+        }
+        
+        .image-graphic-design-photography {
+            // position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-end;
+            justify-content: center;
+            position: relative;
+            .container-gd {
+                flex-direction: column;
+                position: absolute;
+                align-items: center;
+                width: 90%;
+                color: #25564b;
+                text-align: center;
+                color: $Dark-desaturated-cyan;
+                margin-bottom: 10%;
+                height: 30%;
+                h3 {
+                    font-size: 2em;
+                    font-family: $fraunces;
+                    text-align: center;
+                    margin: 0 auto 1em;
+                }
+                p {
+                    text-align: center;
+                    padding: 0 5em;
+            }
+        }
+        }
+    }
