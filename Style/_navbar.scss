@@ -1,22 +1,18 @@
 .navbar {
-    background-color: $nav-color;
-    height: 70px;
-    // height: auto;
-    padding: 30px 51px;
-    .nav-container {
-        display: flex;
-        justify-content: space-between;
-        max-width: 1200px;
-        margin: 0 auto;s
-        ul li a.active{
-            color: black;
-            border-radius: 30px;
-            background-color: white;
-            padding: 12px 17px;
-        }
-
-        .hum {
-            display: none;
-        }
-    } 
+  background-color: $nav-color;
+  height: 70px;
+  // height: auto;
+  padding: 30px 51px;
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    ul li a.active {
+      color: black;
+      border-radius: 30px;
+      background-color: white;
+      padding: 12px 17px;
+    }
+  }
 }
