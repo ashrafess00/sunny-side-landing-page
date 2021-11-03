@@ -17,10 +17,11 @@ body {
 html {
   width: 100%;
 }
-// *::before ,
-// *::after {
-//     box-sizing: border-box;
-// }
+
+img {
+  width: 100%;
+  height: auto;
+}
 
 body {
   font-size: 1.125rem;
@@ -56,6 +57,7 @@ h4 {
 
 img.client-pic {
   width: 100%;
+  height: auto;
 }
 
 p {
