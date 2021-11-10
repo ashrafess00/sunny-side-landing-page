@@ -1,0 +1,18 @@
+$primary: #3ebfff;
+$link-color: hsl(167deg, 28%, 53%);
+$success: hsl(167deg, 44%, 70%);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.title {
+  word-spacing: 1rem;
+  top: 0;
+  bottom: initial;
+  //   font-family: "Barlow", sans-serif;
+}
+.testemonials {
+  padding: 7rem;
+  .testemonials-img {
+    width: 4.5rem;
+  }
+}
